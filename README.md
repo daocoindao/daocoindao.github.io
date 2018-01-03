@@ -6,7 +6,7 @@
 
 ## 基本包格式
 
-    test     | Head | Length   | Data       | Check
+test     | Head | Length   | Data       | Check
 -------- | --- | ------- | --------- | ----
 Byte Size | 1    | 2        | Max: 1280  | 2
 Comment   | 0xA5 | See | See    | See 

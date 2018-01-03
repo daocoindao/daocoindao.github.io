@@ -10,6 +10,7 @@
 |Byte Size | 1    | 2        | Max: 1280  | 2
 |Comment   | 0xA5 | See [^1] | See [^2]   | See [^3]
 
+---
 
 [^1]: Length includes all the frame byte, so the min length is 5, which has no data.
 [^2]: 最大数据长度基于一下几点考虑：TCP的MTU大小、物联网设备内存配置、物联网设备应用场景以及特别的：物联网设备OTA的速度。
